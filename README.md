@@ -8,7 +8,10 @@ Does what it says on the tin. I forgot I made this and I'm just uploading this r
 1. Webcam light turns on then the program exits, the screen says something about not being able to grab the frame
 
 Please check the base width and height parameters (the viewing window is always resized automatically to fit the monitor you selected)
+
 Setting them to an unsupported mode (i.e. setting them to 1920x1080 while the webcam only supports up to 1280x720) will cause this error.
+
+Try other backends if the default one does not work.
 
 2. Index out of range error while starting (program closes without webcam light turning on)
 
@@ -21,4 +24,4 @@ Try setting both to 0 if there's only one screen and one webcam (or a webcam-com
 
 4. It keeps crashing with the error from 2
 
-This may indicate that the webcam is not compatible with the API this program uses. I'm working on it.
+This may indicate that the webcam is not compatible with the API this program uses. Please change the backend configuration. (Recent version should try other options automatically)
