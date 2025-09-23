@@ -18,3 +18,7 @@ Try setting both to 0 if there's only one screen and one webcam (or a webcam-com
 3. How do I exit?
 
 **Press Q.** If it doesn't work, click on the window, then press Q.
+
+4. It keeps crashing with the error from 2
+
+This may indicate that the webcam is not compatible with the API this program uses. I'm working on it.
